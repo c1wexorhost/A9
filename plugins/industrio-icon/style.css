@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'TRUST BUILDER-icon';
+  src:  url('fonts/TRUST BUILDER-icon4c63.html?s7l8gu');
+  src:  url('fonts/TRUST BUILDER-icon4c63.html?s7l8gu#iefix') format('embedded-opentype'),
+    url('fonts/TRUST BUILDER-icon4c63.ttf?s7l8gu') format('truetype'),
+    url('fonts/TRUST BUILDER-icon4c63.woff?s7l8gu') format('woff'),
+    url('fonts/TRUST BUILDER-icon4c63.svg?s7l8gu#TRUST BUILDER-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="TRUST BUILDER-icon-"], [class*=" TRUST BUILDER-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'TRUST BUILDER-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.TRUST BUILDER-icon-emails-interface-download-symbol:before {
+  content: "\e921";
+}
+.TRUST BUILDER-icon-pdf:before {
+  content: "\e922";
+}
+.TRUST BUILDER-icon-menu:before {
+  content: "\e920";
+}
+.TRUST BUILDER-icon-next:before {
+  content: "\e900";
+}
+.TRUST BUILDER-icon-coffee-cup:before {
+  content: "\e901";
+}
+.TRUST BUILDER-icon-team:before {
+  content: "\e902";
+}
+.TRUST BUILDER-icon-child:before {
+  content: "\e903";
+}
+.TRUST BUILDER-icon-play-button:before {
+  content: "\e904";
+  color: #F2D42C;
+}
+.TRUST BUILDER-icon-wind-engine:before {
+  content: "\e905";
+}
+.TRUST BUILDER-icon-settings-1:before {
+  content: "\e906";
+}
+.TRUST BUILDER-icon-delivery-truck:before {
+  content: "\e907";
+}
+.TRUST BUILDER-icon-support:before {
+  content: "\e908";
+}
+.TRUST BUILDER-icon-secure-shield:before {
+  content: "\e909";
+}
+.TRUST BUILDER-icon-atomic:before {
+  content: "\e90a";
+}
+.TRUST BUILDER-icon-plant:before {
+  content: "\e90b";
+}
+.TRUST BUILDER-icon-settings:before {
+  content: "\e90c";
+}
+.TRUST BUILDER-icon-safety:before {
+  content: "\e90d";
+}
+.TRUST BUILDER-icon-drop-of-liquid:before {
+  content: "\e90e";
+}
+.TRUST BUILDER-icon-scythe:before {
+  content: "\e90f";
+}
+.TRUST BUILDER-icon-factory-1:before {
+  content: "\e910";
+}
+.TRUST BUILDER-icon-green-energy:before {
+  content: "\e911";
+}
+.TRUST BUILDER-icon-innovation:before {
+  content: "\e912";
+}
+.TRUST BUILDER-icon-gas-station-1:before {
+  content: "\e913";
+}
+.TRUST BUILDER-icon-layers:before {
+  content: "\e914";
+}
+.TRUST BUILDER-icon-atom:before {
+  content: "\e915";
+}
+.TRUST BUILDER-icon-flasks:before {
+  content: "\e916";
+}
+.TRUST BUILDER-icon-gas-station:before {
+  content: "\e917";
+}
+.TRUST BUILDER-icon-gas-pipe:before {
+  content: "\e918";
+}
+.TRUST BUILDER-icon-tower:before {
+  content: "\e919";
+}
+.TRUST BUILDER-icon-valve:before {
+  content: "\e91a";
+}
+.TRUST BUILDER-icon-industry:before {
+  content: "\e91b";
+}
+.TRUST BUILDER-icon-worker:before {
+  content: "\e91c";
+}
+.TRUST BUILDER-icon-envelope:before {
+  content: "\e91d";
+}
+.TRUST BUILDER-icon-clock:before {
+  content: "\e91e";
+}
+.TRUST BUILDER-icon-phone-call:before {
+  content: "\e91f";
+}
+.TRUST BUILDER-icon-right-quote:before {
+  content: "\e923";
+}
