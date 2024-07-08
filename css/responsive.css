@@ -1,7 +1,7 @@
 @media(max-width: 1200px) {
     .header-navigation {padding-left: 15px;padding-right: 15px;}
     .header-navigation .container .main-navigation {display: none !important;}
-    .header-navigation .container {background: #fff;padding-top: 38px;padding-bottom: 38px;}
+    .header-navigation .container {background: #F2F2FF;padding-top: 38px;padding-bottom: 38px;}
     .header-navigation .container .navbar-header {left: 20px;}
     .header-navigation .container .navbar-header button.side-nav-toggler {font-size: 28px;}
     .header.header-home-three .header-navigation .container .navbar-header,
