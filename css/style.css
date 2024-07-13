@@ -86,7 +86,15 @@ a:active {
   .header-top {
     background: #FFFFF2 !important;
 }
+.box_inner_shadow{
 
+  background: linear-gradient(to bottom, #eff0f1 0%, #fdfcfd 100%);
+}
+
+}
+
+.shadow-box {
+  box-shadow: -3px -1px 20px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -95,6 +103,8 @@ a:active {
     padding-left: 0;
     padding-right: 0;
   }
+  
+  
 }
 .page-wrapper {
   background: #fff;
@@ -665,6 +675,67 @@ body.active-preloader-ovh {
 .header-top.home-three .top-info .social a + a {
   margin-left: 20px;
 }
+
+/* topinfo 2 */
+
+.top-info-2 {
+  display: none; /* Hide by default */
+}
+
+@media (max-width: 768px) {
+  /* Show on screens that are 768px wide or smaller */
+  .top-info-2 {
+      display: block;
+  }
+  .top-info-2 {
+    background: #262626;
+  }
+  .top-info-2 .left-text {
+    padding: 16px 0;
+    position: relative;
+  }
+  .top-info-2 .left-text:before {
+    content: '';
+    width: 100000px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -45px;
+    -webkit-transform: skewX(50deg);
+            transform: skewX(50deg);
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .top-info-2 p {
+    margin: 0;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: .01em;
+    position: relative;
+    z-index: 10;
+  }
+  .top-info-2 p span {
+    color: #F2B807;
+  }
+  .top-info-2 .social {
+    padding: 16px 0;
+  }
+  .top-info-2 .social a {
+    font-size: 12px;
+    color: #fff;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+  }
+  .top-info-2.social a:hover {
+    color: #F2B807;
+  }
+  .top-info-2 .social a + a {
+    margin-left: 20px;
+  }
+
+}
+
+
+
 .header-top.home-three .logo {
   padding: 26px 0;
 }
