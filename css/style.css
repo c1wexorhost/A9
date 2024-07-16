@@ -4886,14 +4886,14 @@ footer.site-footer .bottom-footer p {
 .about-style-one .about-content a.about-btn {
   margin-top: 40px;
   display: inline-block;
-  background: #BF8502;
+  background: #F2B807;
   font-size: 16px;
   text-align: center;
   font-weight: 600;
   font-family: 'Poppins';
   line-height: 54px;
   width: 295px;
-  color: #fff;
+  color: #261400;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
