@@ -351,20 +351,21 @@ function thmOwlCarousel() {
 
 
 function galleryMasonaryLayout() {
+    // Initialize Masonry Layout
     if ($('.masonary-layout').length) {
         $('.masonary-layout').isotope({
             layoutMode: 'masonry'
         });
     }
 
+    // Initialize Filter Functionality
     if ($('.post-filter').length) {
-    	var postFilterList = $('.post-filter li');
+        var postFilterList = $('.post-filter li');
         postFilterList.children('span').on('click', function() {
             var Self = $(this);
             var selector = Self.parent().attr('data-filter');
             postFilterList.children('span').parent().removeClass('active');
             Self.parent().addClass('active');
-
 
             $('.filter-layout').isotope({
                 filter: selector,
@@ -376,11 +377,13 @@ function galleryMasonaryLayout() {
             });
             return false;
         });
+
+        // Apply the active filter on page load
+        applyActiveFilter();
     }
 
+    // Dynamic Filter Counters
     if ($('.post-filter.has-dynamic-filter-counter').length) {
-        // var allItem = $('.single-filter-item').length;
-
         var activeFilterItem = $('.post-filter.has-dynamic-filter-counter').find('li');
 
         activeFilterItem.each(function() {
@@ -388,8 +391,28 @@ function galleryMasonaryLayout() {
             var count = $('.gallery-content').find(filterElement).length;
             $(this).children('span').append('<span class="count"><b>' + count + '</b></span>');
         });
-    };
+    }
 }
+
+// Function to apply the active filter on page load
+function applyActiveFilter() {
+    var activeFilterItem = $('.post-filter li.active');
+    if (activeFilterItem.length) {
+        var selector = activeFilterItem.attr('data-filter');
+        $('.filter-layout').isotope({
+            filter: selector,
+            animationOptions: {
+                duration: 500,
+                easing: 'linear',
+                queue: false
+            }
+        });
+    }
+}
+
+$(document).ready(function() {
+    galleryMasonaryLayout();
+});
 
 
 function thmbxSlider() {
