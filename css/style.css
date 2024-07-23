@@ -5825,3 +5825,20 @@ footer.site-footer .bottom-footer p {
     display: flex;
     justify-content: center;
 }
+
+
+iframe{
+  filter: invert(100%);
+}
+
+
+.map{
+  margin: 30px auto;
+  border: 1px  solid #035B96;
+  max-width: 80vw;
+
+}
+.map iframe{
+  width: 100%;
+  height: 450px;
+}
