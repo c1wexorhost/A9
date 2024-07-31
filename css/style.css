@@ -2931,7 +2931,7 @@ footer.site-footer .bottom-footer p {
   margin-top: 20px;
 }
 .testimonials-style-four .single-testimonial-style-four .content-box .stars i {
-  color: #F2D42C;
+  color: #F2B807;
   font-size: 15px;
 }
 .testimonials-style-four .single-testimonial-style-four .content-box .stars i + i {
@@ -3411,7 +3411,7 @@ footer.site-footer .bottom-footer p {
   margin-right: auto;
 }
 .single-features-style-two:before {
-  background: #F2D42C;
+  background: #F2B807;
 }
 .single-features-style-two:hover h3, .single-features-style-two:hover p, .single-features-style-two:hover i {
   color: #fff;
@@ -4677,7 +4677,7 @@ footer.site-footer .bottom-footer p {
   width: 16px;
   height: 16px;
   background: #fff;
-  border: 2px solid #F2D42C;
+  border: 2px solid #F2B807;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -4703,7 +4703,7 @@ footer.site-footer .bottom-footer p {
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
   border-radius: 50%;
-  background: #F2D42C;
+  background: #F2B807;
   z-index: 2;
 }
 .service-style-four-carousel.owl-theme .owl-dots .owl-dot.active span:after {
@@ -5052,7 +5052,7 @@ footer.site-footer .bottom-footer p {
   position: absolute;
   top: 20px;
   left: 0;
-  background: #F2D42C;
+  background: #F2B807;
   width: 100%;
   max-width: 263px;
   min-height: 245px;
@@ -5109,7 +5109,7 @@ footer.site-footer .bottom-footer p {
   height: 45px;
   line-height: 45px;
   color: #fff;
-  background: #F2D42C;
+  background: #F2B807;
   font-family: 'Poppins';
   font-weight: 600;
   font-size: 16px;
@@ -5381,7 +5381,7 @@ footer.site-footer .bottom-footer p {
   transition: all .4s ease;
 }
 .time-line ul.tab-title li a:hover {
-  color: #F2D42C;
+  color: #F2B807;
 }
 .time-line ul.tab-title li a:after {
   content: '';
@@ -5396,7 +5396,7 @@ footer.site-footer .bottom-footer p {
           transform: translateX(-50%);
 }
 .time-line ul.tab-title li.active a {
-  color: #F2D42C;
+  color: #F2B807;
 }
 .time-line .tab-content {
   margin-top: 75px;
@@ -5737,7 +5737,7 @@ footer.site-footer .bottom-footer p {
   content: '';
   width: 6px;
   height: 0;
-  background: #F2D42C;
+  background: #F2B807;
   position: absolute;
   top: 0;
   left: 0;
@@ -5797,7 +5797,7 @@ footer.site-footer .bottom-footer p {
   color: #FFFFFF;
 }
 .sidebar .single-sidebar.broucher-sidebar a.broucher-btn:hover i {
-  color: #F2D42C;
+  color: #F2B807;
 }
 
 /*# sourceMappingURL=style.css.map */
