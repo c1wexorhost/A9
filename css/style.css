@@ -5854,3 +5854,20 @@ iframe{
       font-size: 14px;
   }
 }
+
+
+
+.time-line .timeline-tab-select-form .bootstrap-select .dropdown-toggle .caret {
+  border: none;
+  transform: translateY(-50%);
+  right: 30px;
+  width: auto;
+  height: auto;
+}
+
+.time-line .timeline-tab-select-form .bootstrap-select .dropdown-toggle .caret:before {
+  content: '\f107';
+  font-family: 'FontAwesome';
+  color: #fff;
+  font-size: 20px;
+}
